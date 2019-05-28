@@ -1,0 +1,15 @@
+//contains global styles, such as resets, typography, colors, etc.
+
+@import
+
+  // Start to output CSS with a Reset
+  "reset",
+  "global",
+
+  // Helpers
+  "accessibility",
+
+  // Elements
+  "typography",
+  "forms",
+  "buttons";
