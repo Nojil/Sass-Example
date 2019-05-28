@@ -130,7 +130,7 @@ u {
 abbr[title],
 cite,
 dfn[title] {
-  border-bottom: 1px dotted #d62901;
+  border-bottom: 1px dotted #FFF;
   text-decoration: none; }
 
 abbr[title],
@@ -162,11 +162,11 @@ object {
   max-width: 100%; }
 
 ::selection {
-  background: #d62901;
+  background: #FFF;
   color: #fff; }
 
 ::-moz-selection {
-  background: #d62901;
+  background: #FFF;
   color: #fff; }
 
 .js .embed-container {
@@ -222,7 +222,7 @@ textarea {
 a {
   transition: all 250ms ease; }
   a, a:link, a:visited {
-    color: #d62901;
+    color: #FFF;
     text-decoration: none; }
   .no-js a:hover,
   .no-js a:focus,
@@ -424,7 +424,7 @@ blockquote {
     padding-left: 2em; }
   blockquote p::before,
   blockquote p:last-child::after {
-    color: #d62901;
+    color: #FFF;
     font-family: "Georgia", "Cambria", "Times New Roman", "Times", serif;
     font-size: 3rem;
     font-style: italic;
@@ -582,7 +582,7 @@ s {
   color: #ccc; }
 
 del {
-  color: #d62901; }
+  color: #FFF; }
 
 ins {
   background-color: #ccc;
@@ -641,8 +641,8 @@ textarea {
   textarea[required]:focus,
   textarea[required=true]:focus,
   textarea[required="required"]:focus {
-    border-color: #d62901;
-    box-shadow: 0 0 0.5em rgba(214, 41, 1, 0.5);
+    border-color: #FFF;
+    box-shadow: 0 0 0.5em rgba(255, 255, 255, 0.5);
     outline: none; }
 
 textarea {
@@ -704,8 +704,8 @@ input[type="number"] {
     padding: 0.625em 1em 0.5em;
     text-transform: uppercase; }
     .button--primary, .button--primary:link, .button--primary:visited {
-      background-color: #d62901;
-      border-color: #ad2101;
+      background-color: #FFF;
+      border-color: #ebebeb;
       color: #f2f2f2; }
     .no-js .button--primary:hover,
     .no-js .button--primary:focus,
@@ -802,7 +802,7 @@ input[type="number"] {
     .content__main .example + .examplecode {
       margin-top: -1.75em; }
   .content__main .example::before {
-    background-color: #d62901;
+    background-color: #FFF;
     color: #fff;
     content: 'EXAMPLE';
     font-size: .75em;
